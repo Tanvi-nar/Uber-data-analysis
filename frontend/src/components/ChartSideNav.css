@@ -1,0 +1,17 @@
+.chart-sidenav {
+  width: 220px;
+  background: #f3f4f8;
+  min-height: 100vh;
+}
+
+.chart-sidenav .nav-link {
+  color: #475569;                 /* slate‑600 */
+  border-radius: 4px;
+  margin: 2px 0;
+}
+
+.chart-sidenav .nav-link.active,
+.chart-sidenav .nav-link:hover {
+  background: #2c4bff;
+  color: #fff;
+}

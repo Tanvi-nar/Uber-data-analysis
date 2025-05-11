@@ -1,0 +1,44 @@
+/* src/HomePage.css */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;          /* full screen */
+    padding: 0 5vw;
+    background: #000;       /* black page */
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    max-width: 40%;
+  }
+  
+  .title {
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0 0 2rem;
+  }
+  
+  .analysBtn {
+    padding: 0.8rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #ff9f00;    /* tweak color as you like */
+    color: #000;
+    transition: transform 0.15s ease;
+  }
+  
+  .analysBtn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .hero {
+    width: 400px;        /* stays on the right */
+    margin-right: 200px;
+    height: auto;
+  }
+  

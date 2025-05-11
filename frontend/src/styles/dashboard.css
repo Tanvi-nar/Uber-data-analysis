@@ -1,0 +1,22 @@
+/* the wrapper takes full available width & height */
+.chart-area {
+    height: auto; 
+    width: 500px;          /*full column height */
+    /* display: flex; */
+    /* flex-direction: row;      side by side */
+  }
+  
+  /* card stretches; feel free to keep the subtle border‑radius/shadow */
+  .chart-card {
+    /* flex: 1;                     ← grow to fill remainder */
+    background: #1f0c0c;
+    border-radius: 6px;
+    padding: 1.5rem;
+    /* display: flex;               to stretch the canvas */
+  }
+  
+  /* the actual canvas inside react‑chartjs‑2
+  .chart-card canvas {
+    flex: 1 !important;          /* full width & height inside card */
+   
+  
