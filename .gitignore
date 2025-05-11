@@ -1,0 +1,7 @@
+# Don't push videos or large files
+*.mov
+*.mp4
+
+# Ignore frontend dependencies
+frontend/node_modules/
+frontend/.cache/
