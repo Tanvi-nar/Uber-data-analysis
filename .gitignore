@@ -1,29 +1,42 @@
-# Ignore Python files
+# === Python (Flask Backend) ===
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-env/
+.env
+.venv/
 venv/
-
-# Ignore Flask config files
 instance/
-*.env
+*.db
+*.sqlite3
 
-# Ignore frontend dependencies
+# === Node.js (React Frontend) ===
 frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
 frontend/.cache/
 
-# Ignore build files
-build/
-dist/
-*.log
-
-# Ignore large assets
+# === Large/Media Files ===
 *.mov
 *.mp4
 *.avi
+*.mkv
+*.flv
 
-# OS-specific
+# === OS Files ===
 .DS_Store
 Thumbs.db
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Git Backup Files ===
+*.swp
+*.swo
+
+# === VS Code ===
+.vscode/
+
+# === Logs ===
+*.log
