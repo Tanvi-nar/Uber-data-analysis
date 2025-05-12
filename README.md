@@ -15,5 +15,7 @@ This is a full-stack mini project built for DSBDAL using Flask (Python) for back
 
 ## 🚀 How to Run
 
-1. Clone this repo  
-2. Start backend:
+1. Clone this repo
+2. Download the dataset using this link : https://drive.google.com/file/d/1EZOf_MRypPjgUHUvEXUHO3ApgqvQV7n1/view?usp=drive_link 
+3. Start backend: python app.py
+4. Start the Frontend: npm start
