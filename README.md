@@ -1,2 +1,19 @@
-# Uber-data-analysis
-Full-stack project for analyzing Uber ride data using Flask, Pandas, and ReactJS
+# Uber Data Analysis Web App 🚗📊
+
+This is a full-stack mini project built for DSBDAL using Flask (Python) for backend and ReactJS for frontend to analyze and visualize Uber ride data.
+
+## 🔧 Tech Stack
+- Python (Flask, Pandas)
+- ReactJS (with Chart.js)
+- Bootstrap
+- CSV file upload support
+
+## 📈 Features
+- Data cleaning & preprocessing
+- Day-night classification, month & weekday extraction
+- Interactive visualizations: bar & line charts
+
+## 🚀 How to Run
+
+1. Clone this repo  
+2. Start backend:
